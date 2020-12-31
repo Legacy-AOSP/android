@@ -5,6 +5,9 @@
   <remove-project name="platform/build" />
 
   <!-- External -->
+  <remove-project name="platform/external/aac" />
+  <remove-project name="platform/external/freetype" />
+  <remove-project name="platform/external/libexif" />
   <remove-project name="platform/external/sonivox" />
 
   <!-- Frameworks -->
@@ -16,6 +19,7 @@
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
@@ -25,6 +29,7 @@
   <!-- System -->
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/sepolicy" />
 
 </manifest>
