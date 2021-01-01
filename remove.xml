@@ -7,6 +7,7 @@
   <!-- External -->
   <remove-project name="platform/external/aac" />
   <remove-project name="platform/external/freetype" />
+  <remove-project name="platform/external/libaom" />
   <remove-project name="platform/external/libexif" />
   <remove-project name="platform/external/sonivox" />
 
@@ -19,6 +20,7 @@
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="platform/packages/apps/Car/Settings" />
   <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/Launcher3" />
