@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <remote  name="legacy"
+           revision="11.x"
+           fetch="https://github.com/Legacy-AOSP/"
+           sync-j="8" />
+
+  <!-- General -->
+  <project path="vendor/aosp" name="android_vendor_aosp" remote="legacy" />
+  
+  <!-- External -->
+  
+  <!-- Frameworks -->
+  
+  <!-- Packages -->
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="legacy" />
+  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="legacy" />
+
+  <!-- System -->
+
+</manifest>
